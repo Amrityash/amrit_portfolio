@@ -1,0 +1,150 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.left-side{
+    display: flex;
+}
+.nav-wrapper > .left-side > div{
+    margin: 5px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+.link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition border-bottom: 0.5;
+}
+.link-wrapper a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.link-wrapper:hover{
+    border-bottom:1px solid black;
+}
+.link-wrapper a:hover{
+    color: black;
+}
+.right-side{
+    font-size: 20px;
+}
+.display{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+.description{
+    padding: 0px 50px 0px 50px;
+    
+}
+.box{
+    flex-wrap: wrap;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+}
+.box3{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+}
+.container2 .box .box1 .content{
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background: #fff;
+    
+    border-radius: 4px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: visible;
+}
+.container2 .box .box2 .content{
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background: #fff;
+    
+    border-radius: 4px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: visible;
+
+}
+.container2 .box .box3 .content{
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background: #fff;
+    
+    border-radius: 4px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: visible;
+}
+.container3{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 50px;
+}
+.container3 .square1{
+    background-color: skyblue;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.container3 .square2{
+    background-color: yellowgreen;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container3 .square3{
+    background-color: teal;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.copyrights{
+    text-align: right;
+    text-align: bottom;
+}
+.acontainer{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.text{
+    padding-left: 30px;
+    padding-right: 100px;
+}
+.location{
+    padding: 20px 50px 20px 200px;
+}
+.submit{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.direct{
+    text-align: right;
+    padding-right: 100px;
+}
